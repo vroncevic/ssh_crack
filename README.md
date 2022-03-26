@@ -4,7 +4,7 @@
 
 **ssh_crack** is tool for ssh cracking.
 
-Developed in **[python](https://www.python.org/)** code: **100%**.
+Developed in **[python](https://www.python.org/)** code.
 
 The README is used to introduce the modules and provide instructions on
 how to install the modules, any machine dependencies it may have and any
@@ -32,17 +32,19 @@ other information that should be provided before the modules are installed.
 
 ![Install Python2 Package](https://github.com/vroncevic/ssh_crack/workflows/Install%20Python2%20Package%20ssh_crack/badge.svg?branch=master) ![Install Python3 Package](https://github.com/vroncevic/ssh_crack/workflows/Install%20Python3%20Package%20ssh_crack/badge.svg?branch=master)
 
-Currently there are three ways to install tool:
-* Install process based on pip
-* Install process based on setup.py (setuptools)
-* Install process based on docker mechanism
+Currently there are three ways to install tool
+
+- Install process based on pip
+- Install process based on setup.py (setuptools)
+- Install process based on docker mechanism
 
 ##### Install using pip
 
 Python package is located at **[pypi.org](https://pypi.org/project/ssh-crack/)**.
 
 You can install by using pip
-```
+
+```bash
 # python2
 pip install ssh-crack
 # python3
@@ -54,7 +56,8 @@ pip3 install ssh-crack
 Navigate to release **[page](https://github.com/vroncevic/ssh_crack/releases/)** download and extract release archive.
 
 To install modules, locate and run setup.py with arguments
-```
+
+```bash
 tar xvzf ssh_crack-x.y.z.tar.gz
 cd ssh_crack-x.y.z/
 # python2
@@ -77,23 +80,23 @@ You can use docker to create image/container.
 
 ### Dependencies
 
-**ssh_crack** requires next modules and libraries:
+**ssh_crack** requires next modules and libraries
 
-* [ats-utilities - Python App/Tool/Script Utilities](https://vroncevic.github.io/ats_utilities)
+- [ats-utilities - Python App/Tool/Script Utilities](https://vroncevic.github.io/ats_utilities)
 
 ### Generation flow of py module
 
-Base flow of generation process:
+Base flow of generation process
 
-![alt tag](https://raw.githubusercontent.com/vroncevic/ssh_crack/dev/docs/ssh_crack_flow.png)
+![Tool flow](https://raw.githubusercontent.com/vroncevic/ssh_crack/dev/docs/ssh_crack_flow.png)
 
 ### Tool structure
 
-**ssh_crack** is based on OOP:
+**ssh_crack** is based on OOP
 
-Generator structure:
+Generator structure
 
-```
+```bash
 
 ```
 
@@ -101,9 +104,10 @@ Generator structure:
 
 [![Documentation Status](https://readthedocs.org/projects/ssh_crack/badge/?version=latest)](https://ssh_crack.readthedocs.io/projects/ssh_crack/en/latest/?badge=latest)
 
-More documentation and info at:
-* [ssh_crack.readthedocs.io](https://ssh_crack.readthedocs.io/en/latest/)
-* [www.python.org](https://www.python.org/)
+More documentation and info at
+
+- [ssh_crack.readthedocs.io](https://ssh_crack.readthedocs.io/en/latest/)
+- [www.python.org](https://www.python.org/)
 
 ### Copyright and Licence
 
